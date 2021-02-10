@@ -15,37 +15,50 @@
             </header>
             <main>                 
                 <form>
-                    <fieldset class="applyflex">
+                    <fieldset id="contactinfosection"class="applyflex">
                         <legend>Contact Information</legend>
-                        <label for="firstname">Name:</label>
-                        <input id="firstname" type="text" name="first_name" placeholder="Required">
-                        <label for="email">Email Address:</label>
-                        <input id="email" type="email" name="email" placeholder="Required"> 
-                        <label for="phonenumber">Phone Number:</label> 
-                        <input id="phonenumber" type="tel" name="phone_number">
-                        <label for="streetaddress">Street Address:</label> 
-                        <input id="streetaddress" type="text" name="street_address">
-                        <label for="city">City:</label> 
-                        <input id="city" type="text" name="city">  
-                        <select id="state" name="state"> 
-                            <option value="florida">Florida</option>
-                            <option value="alaska">Alaska</option>
-                            <option value="ohio">Ohio</option> 
-                        </select>
-                        <label for="zipcode">Zipcode:</label> 
-                        <input id="zipcode" type="text" name="zipcode">   
+                        <div>
+                            <label for="firstname">Name:</label>
+                            <input id="firstname" type="text" name="first_name" placeholder="Required">
+                        </div>
+                        <div>
+                            <label for="email">Email Address:</label>
+                            <input id="email" type="email" name="email" placeholder="Required"> 
+                        </div>
+                        <div>
+                            <label for="phonenumber">Phone Number:</label> 
+                            <input id="phonenumber" type="tel" name="phone_number">
+                        </div>
+                        <div>
+                            <label for="streetaddress">Street Address:</label> 
+                            <input id="streetaddress" type="text" name="street_address">
+                        </div>
+                            <label for="city">City:</label> 
+                            <input id="city" type="text" name="city">   
+                        </div>
+                        <div>
+                            <select id="state" name="state"> 
+                                <option value="florida">Florida</option>
+                                <option value="alaska">Alaska</option>
+                                <option value="ohio">Ohio</option> 
+                            </select>
+                        </div> 
+                        <div>
+                            <label for="zipcode">Zipcode:</label> 
+                            <input id="zipcode" type="text" name="zipcode">   
+                        </div>
                      </fieldset>  
                     <hr>
-                    <fieldset class="applyflex"> 
+                    <fieldset id="newslettersection"> 
                         <legend>Newsletter</legend>
-                        <label>Select the newsletters you would like to receive</label>
+                        <label>Select the newsletters you would like to receive</label><br>
                         <input type="checkbox" id="newsl_html" value="newsl_html" name="newsl_select"><label for="newsl_html">HTML News</label><br>
                         <input type="checkbox" id="newsl_cnn"    value="newsl_cnn"    name="newsl_select"><label for="newsl_cnn">CSS News</label><br>
                         <input type="checkbox" id="newsl_js"  value="newsl_js"  name="newsl_select"><label for="newsl_js">Javascript News</label><br>
-                        <label>Newsletter format</label>
+                        <label>Newsletter format</label><br> 
                         <input type="radio" id="html" value="html" name="nl_format"><label for="html">HTML</label><br>
                         <input type="radio" id="plain_text" value="plain_text" name="nl_format"><label for="plain_text">Plain Text</label><br>
-                        <label for="othertopics">Other topics you'd like to hear about</label>
+                        <label for="othertopics">Other topics you'd like to hear about:</label>
                         <textarea id="othertopics" name="othertopics"></textarea>
                      </fieldset> 
                     <button type="submit">Sign Up</button>
