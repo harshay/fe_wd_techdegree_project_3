@@ -23,7 +23,7 @@ header {
 }   
 
 textarea, 
-input[type="submit"] {
+button[type="submit"] {
 
     width: 100%;  
 
