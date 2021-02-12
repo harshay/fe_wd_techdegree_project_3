@@ -3,7 +3,7 @@
 *  {
 
     font-family: 'Merriweather', serif; 
-    background-color: #f8f8ff;
+    background-color: white;
 
 }
  
@@ -23,6 +23,12 @@ header h2  {
 
 }
 
+header p {
+
+    padding-bottom: 10px;
+    border-bottom: 4px double black; 
+
+}
 
 .applyflex > div { 
 
