@@ -14,6 +14,8 @@ header {
 
 }
 
+
+
 header h2  {
 
     color: white; 
@@ -88,6 +90,14 @@ footer h3 {
 
 }
 
+#contactinfosection input,
+#contactinfosection select {
+    height: 50px;
+}
+
+input[placeholder="Required"]::placeholder {
+    text-align: right;
+} 
 
 #newslettersection input {
 
@@ -122,9 +132,22 @@ button {
 
 
  
+/**********************************/
+/*768px*/ 
 
 
 
+@media screen and (min-width: 768px) { 
+
+    main { 
+
+        width: 50%; 
+
+    }
+ 
+
+}
+ 
 
 
 
