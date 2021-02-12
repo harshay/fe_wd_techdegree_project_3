@@ -4,6 +4,16 @@
 header {
 
     text-align: center;
+    margin-top: 0; 
+
+}
+
+header h2  {
+
+    color: white; 
+    margin-top: 0; 
+    background-color: darkblue;
+    padding: 10px 0; 
 
 }
 
@@ -18,9 +28,17 @@ header {
 
 .applyflex label {  
 
-   padding-bottom: 5px;  
+   padding-bottom: 10px;  
+   
 
 }   
+
+.applyflex input {  
+
+    padding-bottom: 5px;  
+    
+ 
+ }   
 
 textarea, 
 button[type="submit"] {
@@ -29,8 +47,19 @@ button[type="submit"] {
 
 }  
 
+footer h3 { 
+
+    text-align: center;
+
+}
 
 
+
+#newslettersection input {
+
+   padding-right: 10px;
+
+}  
 
 
  
