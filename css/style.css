@@ -43,6 +43,10 @@ input:focus {
     border-color: darkblue;
   }
 
+  input:focus {
+    background-color: #CDCDCD;
+  } 
+
 .applyflex > div { 
 
     display:flex; 
@@ -96,6 +100,11 @@ footer h3 {
 }
 
 input[placeholder="Required"]::placeholder {
+    text-align: right;
+} 
+
+
+input[placeholder="ex. New York"]::placeholder {
     text-align: right;
 } 
 
@@ -153,9 +162,14 @@ button {
         display:flex; 
         flex-direction: row;
         margin: 10px 0; 
-        flex-grow: 1;
 
     }  
+
+    .applyflex > div * { 
+
+        flex-basis: 100px;
+
+    }   
 
 }
  
