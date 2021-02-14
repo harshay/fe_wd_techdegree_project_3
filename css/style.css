@@ -23,6 +23,15 @@ header h2  {
     background-color: darkblue;
     padding: 10px 0; 
 
+} 
+
+
+
+
+header h3  {
+
+    padding-bottom: 10px; 
+
 }
 
 header p {
@@ -162,14 +171,17 @@ button {
         display:flex; 
         flex-direction: row;
         margin: 10px 0; 
+        justify-content: space-between; 
 
     }  
 
+    
     .applyflex > div * { 
 
-        flex-basis: 100px;
+        flex-basis: 500px;
 
     }   
+    
 
 }
  
