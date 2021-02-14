@@ -52,8 +52,9 @@ input:focus {
     border-color: darkblue;
   }
 
-  input:focus {
+input:focus {
     background-color: #CDCDCD;
+    transition: background-color 0.5s ease-in
   } 
 
 .applyflex > div { 
